@@ -1,0 +1,314 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <Font>
+        <Name>button_small</Name>
+        <File>fonts/button_10.tga</File>
+    </Font>
+
+
+    <Font>
+        <Name>button_large</Name>
+        <File>fonts/button_12.tga</File>
+    </Font>
+
+
+    <Font>
+        <Name>brit9</Name>
+        <File>fonts/brit9gry_light.tga</File>
+    </Font>
+
+
+    <Font>
+        <Name>arial9</Name>
+        <File>fonts/arial09.tga</File>
+    </Font>
+
+
+    <Font>
+        <Name>arial11</Name>
+        <File>fonts/arial11b.tga</File>
+    </Font>
+
+
+    <Font>
+        <Name>arial14</Name>
+        <File>fonts/arial14.tga</File>
+    </Font>
+
+
+    <Font>
+        <Name>arial18</Name>
+        <File>fonts/arial18.tga</File>
+    </Font>
+
+
+    <Font>
+        <Name>arial9cl</Name>
+        <File>custom/arial09_cxp.tga</File>
+    </Font>
+
+
+    <Font>
+        <Name>title</Name>
+        <File>fonts/title_24.tga</File>
+    </Font>
+
+
+    <Font>
+        <Name>barb10</Name>
+        <File>fonts/barbedor_10.tga</File>
+    </Font>
+
+
+    <TTFFont>
+        <Name>chat_small</Name>
+        <File>fonts/MyriadPro-Regular.ttf</File>
+        <Height>10</Height>
+        <Antialiased>true</Antialiased>
+        <Hint>2</Hint>
+    </TTFFont>
+
+
+    <TTFFont>
+        <Name>chat_large</Name>
+        <File>fonts/MyriadPro-Regular.ttf</File>
+        <Height>13</Height>
+        <Antialiased>true</Antialiased>
+        <Hint>2</Hint>
+    </TTFFont>
+
+
+    <TTFFont>
+        <Name>myriadbold</Name>
+        <File>fonts/MyriadPro-Semibold.ttf</File>
+        <Height>13</Height>
+        <Antialiased>true</Antialiased>
+        <Hint>2</Hint>
+    </TTFFont>
+
+
+    <TTFFont>
+        <Name>minion</Name>
+        <File>fonts/MinionPro-Regular.ttf</File>
+        <Height>16</Height>
+        <Antialiased>true</Antialiased>
+        <Hint>2</Hint>
+    </TTFFont>
+
+
+    <!-- Textures -->
+
+
+    <Texture>
+        <Name>page1</Name>
+        <File>custom/podmod_01.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>page2</Name>
+        <File>custom/podmod_02.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>page3</Name>
+        <File>custom/podmod_03.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>page4</Name>
+        <File>custom/whatties_04.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>page4b</Name>
+        <File>atlantis/atlantis_04b.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>buttons</Name>
+        <File>custom/podmod_buttons.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>page5</Name>
+        <File>custom/podmod_05.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>page10</Name>
+        <File>custom/podmod_10.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>page11</Name>
+        <File>custom/podmod_11.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>page12</Name>
+        <File>custom/podmod_12.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>realmrank_chart</Name>
+        <File>custom/podmod_rr.dds</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>compass</Name>
+        <File>custom/podmod_arial_compass.bmp</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>map_icons2</Name>
+        <File>custom/map_icons2.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>small_arrows</Name>
+        <File>custom/smallarrows.dds</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>selected_icon</Name>
+        <File>custom/selected_icon.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>benumbed</Name>
+        <File>custom/benumbed.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>podmod_compasstex</Name>
+        <File>custom/podmod_map_compass.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>warmap_agramon</Name>
+        <File>custom/z163.dds</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>emoticons</Name>
+        <File>atlantis/emoticons.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>slider</Name>
+        <File>atlantis/slider.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>frames_win</Name>
+        <File>atlantis/frames_win.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>navigation</Name>
+        <File>atlantis/navigation.tga</File>
+    </Texture>
+
+
+    <!-- Custom Windows -->
+
+
+    <Include>custom0_window.xml</Include>
+
+
+    <Include>custom1_window.xml</Include>
+
+
+    <Include>custom2_window.xml</Include>
+
+
+    <Include>custom3_window.xml</Include>
+
+
+    <Include>custom4_window.xml</Include>
+
+
+    <Include>custom5_window.xml</Include>
+
+
+    <Include>custom6_window.xml</Include>
+
+
+    <Include>custom7_window.xml</Include>
+
+
+    <Include>custom8_window.xml</Include>
+
+
+    <Include>custom9_window.xml</Include>
+
+
+    <Include>custom10_window.xml</Include>
+
+
+    <Include>custom11_window.xml</Include>
+
+
+    <Include>custom12_window.xml</Include>
+
+
+    <Include>custom15_window.xml</Include>
+
+
+    <Include>custom16_window.xml</Include>
+
+
+    <Include>custom17_window.xml</Include>
+
+
+    <Include>custom18_window.xml</Include>
+
+
+    <Include>custom19_window.xml</Include>
+
+
+    <Texture>
+        <Name>atlantis1</Name>
+        <File>atlantis/atlantis_01.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>atlantis3</Name>
+        <File>atlantis/atlantis_03.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>atlantis4</Name>
+        <File>atlantis/atlantis_04.tga</File>
+    </Texture>
+
+
+</Root_Element>

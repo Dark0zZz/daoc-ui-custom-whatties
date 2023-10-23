@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>command</Name>
+        <WindowId>Command</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>308</Width>
+        <Height>28</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <GrowWidth>true</GrowWidth>
+            </Alignment>
+            <TemplateName>diivs_stats_index_extension</TemplateName>
+            <Width>308</Width>
+        </HorizontalResizeImageDef>
+
+
+        <ButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>11</X>
+                <Y>7</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_46_grn_highlit</TemplateName>
+            <Label>Attack</Label>
+            <onClickEvent>ToggleAttackMode</onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>59</X>
+                <Y>7</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_46_grn_highlit</TemplateName>
+            <Label>Follow</Label>
+            <onClickEvent>Follow</onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>107</X>
+                <Y>7</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_46_grn_highlit</TemplateName>
+            <Label>Sit</Label>
+            <onClickEvent>ToggleSitting</onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>155</X>
+                <Y>7</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_46_grn_highlit</TemplateName>
+            <Label>Bind</Label>
+            <onClickEvent>Bind</onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>203</X>
+                <Y>7</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_46_grn_highlit</TemplateName>
+            <Label>Release</Label>
+            <onClickEvent>Release</onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>251</X>
+                <Y>7</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_46_grn_highlit</TemplateName>
+            <Label>Pray</Label>
+            <onClickEvent>Pray</onClickEvent>
+        </ButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

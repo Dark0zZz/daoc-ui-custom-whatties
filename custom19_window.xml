@@ -1,0 +1,1915 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>custom19_window</Name>
+        <WindowId>custom19_window</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>200</Width>
+        <Height>170</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>index_foot_topleft</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>158</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>index_foot_topright</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>156</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>index_foot_bottomleft</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>158</X>
+                <Y>156</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>index_foot_bottomright</TemplateName>
+        </ImageAreaDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>miniback_hh_1</TemplateName>
+            <AdapterName>group_health0</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>3</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_14</TemplateName>
+            <AdapterName>group_health0</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>3</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>grp_0_icon</TemplateName>
+            <AdapterName>group_health0</AdapterName>
+        </StatusIconDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>22</X>
+                <Y>5</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>40</Width>
+            <Height>12</Height>
+            <ColorAdapter>group_color0</ColorAdapter>
+            <MaxCharacters>24</MaxCharacters>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>group_name0</Adapter>
+        </LabelDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>-2</X>
+                <Y>15</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_42</TemplateName>
+            <AdapterName>group_health0</AdapterName>
+        </StatusIconDef>
+
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>34</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter>group_health0</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>30</Width>
+            <Height>12</Height>
+            <MaxCharacters>12</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero><DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>36</X>
+                <Y>17</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>power_28_inv</TemplateName>
+            <AdapterName>group_power0</AdapterName>
+        </StatusIconDef>
+
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>36</X>
+                <Y>27</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter>group_power0</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>28</Width>
+            <Height>12</Height>
+            <MaxCharacters>12</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero><DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>47</X>
+                <Y>37</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>status_14_back</TemplateName>
+            <AdapterName>group_endurance0</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>47</X>
+                <Y>37</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>endu_14</TemplateName>
+            <AdapterName>group_endurance0</AdapterName>
+        </StatusIconDef>
+
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>33</X>
+                <Y>42</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter>group_endurance0</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>20</Width>
+            <Height>12</Height>
+            <MaxCharacters>12</MaxCharacters>
+            <Color>
+                <R>153</R>
+                <G>153</G>
+                <B>153</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero><DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember0</OnClickEvent>
+            <Width>66</Width>
+            <Height>56</Height>
+        </InvisibleButtonDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>67</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>miniback_hh_1</TemplateName>
+            <AdapterName>group_health1</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>70</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_14</TemplateName>
+            <AdapterName>group_health1</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>70</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>grp_1_icon</TemplateName>
+            <AdapterName>group_health1</AdapterName>
+        </StatusIconDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>89</X>
+                <Y>5</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>40</Width>
+            <Height>12</Height>
+            <ColorAdapter>group_color1</ColorAdapter>
+            <MaxCharacters>24</MaxCharacters>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>group_name1</Adapter>
+        </LabelDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>65</X>
+                <Y>15</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_42</TemplateName>
+            <AdapterName>group_health1</AdapterName>
+        </StatusIconDef>
+
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>67</X>
+                <Y>34</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter>group_health1</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>30</Width>
+            <Height>12</Height>
+            <MaxCharacters>12</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero><DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>103</X>
+                <Y>17</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>power_28_inv</TemplateName>
+            <AdapterName>group_power1</AdapterName>
+        </StatusIconDef>
+
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>103</X>
+                <Y>27</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter>group_power1</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>28</Width>
+            <Height>12</Height>
+            <MaxCharacters>12</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero><DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>114</X>
+                <Y>37</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>status_14_back</TemplateName>
+            <AdapterName>group_endurance1</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>114</X>
+                <Y>37</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>endu_14</TemplateName>
+            <AdapterName>group_endurance1</AdapterName>
+        </StatusIconDef>
+
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>100</X>
+                <Y>42</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter>group_endurance1</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>20</Width>
+            <Height>12</Height>
+            <MaxCharacters>12</MaxCharacters>
+            <Color>
+                <R>153</R>
+                <G>153</G>
+                <B>153</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero><DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>67</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember1</OnClickEvent>
+            <Width>66</Width>
+            <Height>56</Height>
+        </InvisibleButtonDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>134</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>miniback_hh_1</TemplateName>
+            <AdapterName>group_health2</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>137</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_14</TemplateName>
+            <AdapterName>group_health2</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>137</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>grp_2_icon</TemplateName>
+            <AdapterName>group_health2</AdapterName>
+        </StatusIconDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>156</X>
+                <Y>5</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>40</Width>
+            <Height>12</Height>
+            <ColorAdapter>group_color2</ColorAdapter>
+            <MaxCharacters>24</MaxCharacters>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>group_name2</Adapter>
+        </LabelDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>132</X>
+                <Y>15</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_42</TemplateName>
+            <AdapterName>group_health2</AdapterName>
+        </StatusIconDef>
+
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>134</X>
+                <Y>34</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter>group_health2</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>30</Width>
+            <Height>12</Height>
+            <MaxCharacters>12</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero><DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>170</X>
+                <Y>17</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>power_28_inv</TemplateName>
+            <AdapterName>group_power2</AdapterName>
+        </StatusIconDef>
+
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>170</X>
+                <Y>27</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter>group_power2</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>28</Width>
+            <Height>12</Height>
+            <MaxCharacters>12</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero><DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>181</X>
+                <Y>37</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>status_14_back</TemplateName>
+            <AdapterName>group_endurance2</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>181</X>
+                <Y>37</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>endu_14</TemplateName>
+            <AdapterName>group_endurance2</AdapterName>
+        </StatusIconDef>
+
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>167</X>
+                <Y>42</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter>group_endurance2</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>20</Width>
+            <Height>12</Height>
+            <MaxCharacters>12</MaxCharacters>
+            <Color>
+                <R>153</R>
+                <G>153</G>
+                <B>153</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero><DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>134</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember2</OnClickEvent>
+            <Width>66</Width>
+            <Height>56</Height>
+        </InvisibleButtonDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>57</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>miniback_hh_1</TemplateName>
+            <AdapterName>group_health3</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>3</X>
+                <Y>60</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_14</TemplateName>
+            <AdapterName>group_health3</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>3</X>
+                <Y>60</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>grp_3_icon</TemplateName>
+            <AdapterName>group_health3</AdapterName>
+        </StatusIconDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>22</X>
+                <Y>62</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>40</Width>
+            <Height>12</Height>
+            <ColorAdapter>group_color3</ColorAdapter>
+            <MaxCharacters>24</MaxCharacters>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>group_name3</Adapter>
+        </LabelDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>-2</X>
+                <Y>72</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_42</TemplateName>
+            <AdapterName>group_health3</AdapterName>
+        </StatusIconDef>
+
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>91</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter>group_health3</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>30</Width>
+            <Height>12</Height>
+            <MaxCharacters>12</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero><DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>36</X>
+                <Y>74</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>power_28_inv</TemplateName>
+            <AdapterName>group_power3</AdapterName>
+        </StatusIconDef>
+
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>36</X>
+                <Y>84</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter>group_power3</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>28</Width>
+            <Height>12</Height>
+            <MaxCharacters>12</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero><DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>47</X>
+                <Y>94</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>status_14_back</TemplateName>
+            <AdapterName>group_endurance3</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>47</X>
+                <Y>94</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>endu_14</TemplateName>
+            <AdapterName>group_endurance3</AdapterName>
+        </StatusIconDef>
+
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>33</X>
+                <Y>99</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter>group_endurance3</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>20</Width>
+            <Height>12</Height>
+            <MaxCharacters>12</MaxCharacters>
+            <Color>
+                <R>153</R>
+                <G>153</G>
+                <B>153</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero><DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>57</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember3</OnClickEvent>
+            <Width>66</Width>
+            <Height>56</Height>
+        </InvisibleButtonDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>134</X>
+                <Y>57</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>miniback_hh_1</TemplateName>
+            <AdapterName>group_health4</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>137</X>
+                <Y>60</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_14</TemplateName>
+            <AdapterName>group_health4</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>137</X>
+                <Y>60</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>grp_4_icon</TemplateName>
+            <AdapterName>group_health4</AdapterName>
+        </StatusIconDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>156</X>
+                <Y>62</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>40</Width>
+            <Height>12</Height>
+            <ColorAdapter>group_color4</ColorAdapter>
+            <MaxCharacters>24</MaxCharacters>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>group_name4</Adapter>
+        </LabelDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>132</X>
+                <Y>72</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_42</TemplateName>
+            <AdapterName>group_health4</AdapterName>
+        </StatusIconDef>
+
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>134</X>
+                <Y>91</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter>group_health4</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>30</Width>
+            <Height>12</Height>
+            <MaxCharacters>12</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero><DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>170</X>
+                <Y>74</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>power_28_inv</TemplateName>
+            <AdapterName>group_power4</AdapterName>
+        </StatusIconDef>
+
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>170</X>
+                <Y>84</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter>group_power4</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>28</Width>
+            <Height>12</Height>
+            <MaxCharacters>12</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero><DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>181</X>
+                <Y>94</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>status_14_back</TemplateName>
+            <AdapterName>group_endurance4</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>181</X>
+                <Y>94</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>endu_14</TemplateName>
+            <AdapterName>group_endurance4</AdapterName>
+        </StatusIconDef>
+
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>167</X>
+                <Y>99</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter>group_endurance4</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>20</Width>
+            <Height>12</Height>
+            <MaxCharacters>12</MaxCharacters>
+            <Color>
+                <R>153</R>
+                <G>153</G>
+                <B>153</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero><DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>134</X>
+                <Y>57</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember4</OnClickEvent>
+            <Width>66</Width>
+            <Height>56</Height>
+        </InvisibleButtonDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>114</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>miniback_hh_1</TemplateName>
+            <AdapterName>group_health5</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>3</X>
+                <Y>117</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_14</TemplateName>
+            <AdapterName>group_health5</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>3</X>
+                <Y>117</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>grp_5_icon</TemplateName>
+            <AdapterName>group_health5</AdapterName>
+        </StatusIconDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>22</X>
+                <Y>119</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>40</Width>
+            <Height>12</Height>
+            <ColorAdapter>group_color5</ColorAdapter>
+            <MaxCharacters>24</MaxCharacters>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>group_name5</Adapter>
+        </LabelDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>-2</X>
+                <Y>129</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_42</TemplateName>
+            <AdapterName>group_health5</AdapterName>
+        </StatusIconDef>
+
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>148</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter>group_health5</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>30</Width>
+            <Height>12</Height>
+            <MaxCharacters>12</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero><DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>36</X>
+                <Y>131</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>power_28_inv</TemplateName>
+            <AdapterName>group_power5</AdapterName>
+        </StatusIconDef>
+
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>36</X>
+                <Y>141</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter>group_power5</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>28</Width>
+            <Height>12</Height>
+            <MaxCharacters>12</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero><DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>47</X>
+                <Y>151</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>status_14_back</TemplateName>
+            <AdapterName>group_endurance5</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>47</X>
+                <Y>151</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>endu_14</TemplateName>
+            <AdapterName>group_endurance5</AdapterName>
+        </StatusIconDef>
+
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>33</X>
+                <Y>156</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter>group_endurance5</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>20</Width>
+            <Height>12</Height>
+            <MaxCharacters>12</MaxCharacters>
+            <Color>
+                <R>153</R>
+                <G>153</G>
+                <B>153</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero><DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>114</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember5</OnClickEvent>
+            <Width>66</Width>
+            <Height>56</Height>
+        </InvisibleButtonDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>67</X>
+                <Y>114</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>miniback_hh_1</TemplateName>
+            <AdapterName>group_health6</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>70</X>
+                <Y>117</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_14</TemplateName>
+            <AdapterName>group_health6</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>70</X>
+                <Y>117</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>grp_6_icon</TemplateName>
+            <AdapterName>group_health6</AdapterName>
+        </StatusIconDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>89</X>
+                <Y>119</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>40</Width>
+            <Height>12</Height>
+            <ColorAdapter>group_color6</ColorAdapter>
+            <MaxCharacters>24</MaxCharacters>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>group_name6</Adapter>
+        </LabelDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>65</X>
+                <Y>129</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_42</TemplateName>
+            <AdapterName>group_health6</AdapterName>
+        </StatusIconDef>
+
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>67</X>
+                <Y>148</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter>group_health6</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>30</Width>
+            <Height>12</Height>
+            <MaxCharacters>12</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero><DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>103</X>
+                <Y>131</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>power_28_inv</TemplateName>
+            <AdapterName>group_power6</AdapterName>
+        </StatusIconDef>
+
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>103</X>
+                <Y>141</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter>group_power6</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>28</Width>
+            <Height>12</Height>
+            <MaxCharacters>12</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero><DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>114</X>
+                <Y>151</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>status_14_back</TemplateName>
+            <AdapterName>group_endurance6</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>114</X>
+                <Y>151</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>endu_14</TemplateName>
+            <AdapterName>group_endurance6</AdapterName>
+        </StatusIconDef>
+
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>100</X>
+                <Y>156</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter>group_endurance6</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>20</Width>
+            <Height>12</Height>
+            <MaxCharacters>12</MaxCharacters>
+            <Color>
+                <R>153</R>
+                <G>153</G>
+                <B>153</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero><DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>67</X>
+                <Y>114</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember6</OnClickEvent>
+            <Width>66</Width>
+            <Height>56</Height>
+        </InvisibleButtonDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>134</X>
+                <Y>114</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>miniback_hh_1</TemplateName>
+            <AdapterName>group_health7</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>137</X>
+                <Y>117</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_14</TemplateName>
+            <AdapterName>group_health7</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>137</X>
+                <Y>117</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>grp_7_icon</TemplateName>
+            <AdapterName>group_health7</AdapterName>
+        </StatusIconDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>156</X>
+                <Y>119</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>40</Width>
+            <Height>12</Height>
+            <ColorAdapter>group_color7</ColorAdapter>
+            <MaxCharacters>24</MaxCharacters>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>group_name7</Adapter>
+        </LabelDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>132</X>
+                <Y>129</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_42</TemplateName>
+            <AdapterName>group_health7</AdapterName>
+        </StatusIconDef>
+
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>134</X>
+                <Y>148</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter>group_health7</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>30</Width>
+            <Height>12</Height>
+            <MaxCharacters>12</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero><DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>170</X>
+                <Y>131</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>power_28_inv</TemplateName>
+            <AdapterName>group_power7</AdapterName>
+        </StatusIconDef>
+
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>170</X>
+                <Y>141</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter>group_power7</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>28</Width>
+            <Height>12</Height>
+            <MaxCharacters>12</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero><DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>181</X>
+                <Y>151</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>status_14_back</TemplateName>
+            <AdapterName>group_endurance7</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>181</X>
+                <Y>151</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>endu_14</TemplateName>
+            <AdapterName>group_endurance7</AdapterName>
+        </StatusIconDef>
+
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>167</X>
+                <Y>156</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter>group_endurance7</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>20</Width>
+            <Height>12</Height>
+            <MaxCharacters>12</MaxCharacters>
+            <Color>
+                <R>153</R>
+                <G>153</G>
+                <B>153</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero><DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>134</X>
+                <Y>114</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember7</OnClickEvent>
+            <Width>66</Width>
+            <Height>56</Height>
+        </InvisibleButtonDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>81</X>
+                <Y>66</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>minigrp_face_button</TemplateName>
+            <AdapterName>group_health0</AdapterName>
+        </StatusIconDef>
+
+
+        <ButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>81</X>
+                <Y>66</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_minigrp_face</TemplateName>
+            <Label>face</Label>
+            <onClickEvent>Face</onClickEvent>
+        </ButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

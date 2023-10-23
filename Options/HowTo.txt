@@ -1,0 +1,12 @@
+1. Back up your old custom folder and delete the copy that is in your client's UI folder.
+
+2. Copy the Custom folder from this folder into your client's UI folder.
+
+3. Open the Custom folder you just installed in your client's UI folder and run the option
+   chooser program. Select the options you wish you use and close the chooser utility.
+
+4. Log into the game or zone if alt-tabbed and you should be good to go.
+
+If you have any questions you can PM me on the vnboard username Belkiolle or e-mail me at
+
+halidonhill@yahoo.com

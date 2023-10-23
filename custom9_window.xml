@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>custom9_window</Name>
+        <WindowId>custom9_window</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>1</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>1</ResizeButtonOffsetY>
+        <TitleWidth>1</TitleWidth>
+        <TitleHeight>1</TitleHeight>
+        <Width>31</Width>
+        <Height>31</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <ImageAreaDef>
+            <ControlId>ext_face</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>ext_face</TemplateName>
+        </ImageAreaDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>ext_face</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label>ext_face</Label>
+            <OnClickEvent>Face</OnClickEvent>
+            <Width>31</Width>
+            <Height>31</Height>
+        </InvisibleButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

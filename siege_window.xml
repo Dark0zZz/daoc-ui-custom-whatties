@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Modded by Kveldstjarna Graimani, Midgard, Nimue -->
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.77b -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>siege</Name>
+        <WindowId></WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>240</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>240</Width>
+        <Height>210</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+
+
+        <FullResizeImageDef>
+            <ControlId>BackgroundImage</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>dlg_background_resize</TemplateName>
+            <Width>240</Width>
+            <Height>210</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>5</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Color>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
+                <A>255</A>
+            </Color>
+            <FontName>button_large</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>siege_title</Adapter>
+        </LabelDef>
+
+
+        <ButtonDef>
+            <ControlId>1102</ControlId>
+            <Position>
+                <X>7</X>
+                <Y>25</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_large</TemplateName>
+            <Label>AIM</Label>
+            <onClickEvent>SiegeAim</onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1101</ControlId>
+            <Position>
+                <X>7</X>
+                <Y>43</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_large</TemplateName>
+            <Label>FIRE</Label>
+            <onClickEvent>SiegeFire</onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1100</ControlId>
+            <Position>
+                <X>7</X>
+                <Y>119</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_large</TemplateName>
+            <Label>MOVE</Label>
+            <onClickEvent>SiegeMove</onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1104</ControlId>
+            <Position>
+                <X>7</X>
+                <Y>137</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_large</TemplateName>
+            <Label>RELEASE</Label>
+            <onClickEvent>SiegeRelease</onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>7</X>
+                <Y>155</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_large</TemplateName>
+            <Label>REPAIR</Label>
+            <onClickEvent>SiegeRepair</onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1103</ControlId>
+            <Position>
+                <X>7</X>
+                <Y>173</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_large</TemplateName>
+            <Label>SALVAGE</Label>
+            <onClickEvent>SiegeSalvage</onClickEvent>
+        </ButtonDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>83</X>
+                <Y>25</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>14</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Siege Timer</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>siege_timer_label</Adapter>
+        </LabelDef>
+
+
+        <StatusBarDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>83</X>
+                <Y>41</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>green_status</TemplateName>
+            <AdapterName>siege_timer</AdapterName>
+            <Width>150</Width>
+        </StatusBarDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>83</X>
+                <Y>57</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>14</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Siege Condition</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
+        </LabelDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>83</X>
+                <Y>73</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>red_status</TemplateName>
+            <AdapterName>siege_hits</AdapterName>
+            <Width>150</Width>
+        </StatusBarDef>
+
+
+        <LabelDef>
+            <ControlId>1105</ControlId>
+            <Position>
+                <X>83</X>
+                <Y>89</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>150</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>For more damage, swing your</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1106</ControlId>
+            <Position>
+                <X>83</X>
+                <Y>103</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>150</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>ram when the timer bar</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1107</ControlId>
+            <Position>
+                <X>83</X>
+                <Y>117</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>150</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>reaches full.</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
+        </LabelDef>
+
+
+        <ListBoxDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>83</X>
+                <Y>89</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Width>145</Width>
+            <Height>100</Height>
+            <TemplateName>listbox_bg</TemplateName>
+            <AdapterName>siege_ammo</AdapterName>
+            <Sorting>false</Sorting>
+            <Columns>2</Columns>
+            <IconTemplate>plain_icon_small</IconTemplate>
+            <ShowIndicator>false</ShowIndicator>
+            <ShowDefaultToolTips>false</ShowDefaultToolTips>
+            <OnHeaderClickEvent></OnHeaderClickEvent>
+            <OnClickEvent></OnClickEvent>
+        </ListBoxDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

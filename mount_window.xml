@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>mount</Name>
+        <WindowId>Mount</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>235</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>235</Width>
+        <Height>370</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>dlg_background_resize</TemplateName>
+            <Width>235</Width>
+            <Height>370</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Color>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
+                <A>255</A>
+            </Color>
+            <FontName>button_large</FontName>
+            <Width>235</Width>
+            <Height>15</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Mount</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>58</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>dialog_inset</TemplateName>
+            <Width>120</Width>
+        </HorizontalResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId>1004</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>22</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>235</Width>
+            <Height>12</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>25</MaxCharacters>
+            <Data>Silver</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>mount_name</Adapter>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>5</X>
+                <Y>37</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>paperdoll_back</TemplateName>
+            <Width>225</Width>
+        </HorizontalResizeImageDef>
+
+
+        <DynamicImageDef>
+            <ControlId>1005</ControlId>
+            <Position>
+                <X>18</X>
+                <Y>52</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TextureName>none</TextureName>
+            <Dimensions>
+                <X>200</X>
+                <Y>150</Y>
+            </Dimensions>
+            <TextureCoords>
+                <X>0</X>
+                <Y>0</Y>
+            </TextureCoords>
+        </DynamicImageDef>
+
+
+        <!-- Socket Background -->
+
+
+        <!-- Active Socket -->
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>32</X>
+                <Y>213</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>icon_socket_large</TemplateName>
+        </ImageAreaDef>
+
+
+        <DockableIconDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>33</X>
+                <Y>214</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Icontemplatename>plain_icon_large</Icontemplatename>
+        </DockableIconDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>33</X>
+                <Y>248</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>40</Width>
+            <Height>12</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Active</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
+        </LabelDef>
+
+
+        <!-- Armor Socket -->
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>102</X>
+                <Y>213</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>icon_socket_large</TemplateName>
+        </ImageAreaDef>
+
+
+        <DockableIconDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>103</X>
+                <Y>214</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Icontemplatename>plain_icon_large</Icontemplatename>
+        </DockableIconDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>103</X>
+                <Y>248</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>40</Width>
+            <Height>12</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Armor</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
+        </LabelDef>
+
+
+        <!-- Barding Socket -->
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>172</X>
+                <Y>213</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>icon_socket_large</TemplateName>
+        </ImageAreaDef>
+
+
+        <DockableIconDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>173</X>
+                <Y>214</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Icontemplatename>plain_icon_large</Icontemplatename>
+        </DockableIconDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>171</X>
+                <Y>248</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>40</Width>
+            <Height>12</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Barding</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
+        </LabelDef>
+
+
+        <!-- Inventory Background -->
+
+
+        <FullResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>5</X>
+                <Y>260</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+            </Alignment>
+            <TemplateName>dlg_sm_notitle</TemplateName>
+            <Width>225</Width>
+            <Height>89</Height>
+        </FullResizeImageDef>
+
+
+        <!-- Inventory slot 1 -->
+
+
+        <ImageAreaDef>
+            <ControlId>1014</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>266</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>icon_socket_small</TemplateName>
+        </ImageAreaDef>
+
+
+        <DockableIconDef>
+            <ControlId>1006</ControlId>
+            <Position>
+                <X>11</X>
+                <Y>267</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Icontemplatename>plain_icon_small</Icontemplatename>
+        </DockableIconDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>30</X>
+                <Y>268</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>175</Width>
+            <Height>12</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>25</MaxCharacters>
+            <Data>Inventory Slot One</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>mount_saddlebag_slot_1</Adapter>
+        </LabelDef>
+
+
+        <!-- Inventory slot 2 -->
+
+
+        <ImageAreaDef>
+            <ControlId>1015</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>286</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>icon_socket_small</TemplateName>
+        </ImageAreaDef>
+
+
+        <DockableIconDef>
+            <ControlId>1007</ControlId>
+            <Position>
+                <X>11</X>
+                <Y>287</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Icontemplatename>plain_icon_small</Icontemplatename>
+        </DockableIconDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>30</X>
+                <Y>288</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>175</Width>
+            <Height>12</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>25</MaxCharacters>
+            <Data>Inventory Slot Two</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>mount_saddlebag_slot_2</Adapter>
+        </LabelDef>
+
+
+        <!-- Inventory slot 3 -->
+
+
+        <ImageAreaDef>
+            <ControlId>1016</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>306</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>icon_socket_small</TemplateName>
+        </ImageAreaDef>
+
+
+        <DockableIconDef>
+            <ControlId>1008</ControlId>
+            <Position>
+                <X>11</X>
+                <Y>307</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Icontemplatename>plain_icon_small</Icontemplatename>
+        </DockableIconDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>30</X>
+                <Y>308</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>175</Width>
+            <Height>12</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>25</MaxCharacters>
+            <Data>Inventory Slot Three</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>mount_saddlebag_slot_3</Adapter>
+        </LabelDef>
+
+
+        <!-- Inventory slot 4 -->
+
+
+        <ImageAreaDef>
+            <ControlId>1017</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>326</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>icon_socket_small</TemplateName>
+        </ImageAreaDef>
+
+
+        <DockableIconDef>
+            <ControlId>1009</ControlId>
+            <Position>
+                <X>11</X>
+                <Y>327</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Icontemplatename>plain_icon_small</Icontemplatename>
+        </DockableIconDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>30</X>
+                <Y>328</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>175</Width>
+            <Height>12</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>25</MaxCharacters>
+            <Data>Inventory Slot Four</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>mount_saddlebag_slot_4</Adapter>
+        </LabelDef>
+
+
+        <!-- Bag 1 -->
+
+
+        <ButtonDef>
+            <ControlId>1010</ControlId>
+            <Position>
+                <X>210</X>
+                <Y>266</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_bag</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
+
+
+        <!-- Bag 2 -->
+
+
+        <ButtonDef>
+            <ControlId>1011</ControlId>
+            <Position>
+                <X>210</X>
+                <Y>285</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_bag</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
+
+
+        <!-- Bag 3 -->
+
+
+        <ButtonDef>
+            <ControlId>1012</ControlId>
+            <Position>
+                <X>210</X>
+                <Y>304</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_bag</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
+
+
+        <!-- Bag 4 -->
+
+
+        <ButtonDef>
+            <ControlId>1013</ControlId>
+            <Position>
+                <X>210</X>
+                <Y>323</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_bag</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
+
+
+        <!-- Encumberance -->
+
+
+        <LabelDef>
+            <ControlId>1018</ControlId>
+            <Position>
+                <X>22</X>
+                <Y>199</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>65</Width>
+            <Height>12</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>25</MaxCharacters>
+            <Data>Enc</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>mount_encumbrance</Adapter>
+        </LabelDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

@@ -1,0 +1,1 @@
+This option will enable the Viddi's icons editted by Maliri.

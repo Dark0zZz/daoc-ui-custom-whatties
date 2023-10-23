@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <StatusIconTemplate>
+        <Name>performance_icon_large</Name>
+        <TextureName>page3</TextureName>
+        <TextureStart>
+            <X>165</X>
+            <Y>4</Y>
+        </TextureStart>
+        <Width>28</Width>
+        <Height>28</Height>
+        <MaxLevels>3</MaxLevels>
+        <Horizontal>false</Horizontal>
+    </StatusIconTemplate>
+
+
+    <StatusIconTemplate>
+        <Name>lag_icon_large</Name>
+        <TextureName>page3</TextureName>
+        <TextureStart>
+            <X>194</X>
+            <Y>4</Y>
+        </TextureStart>
+        <Width>28</Width>
+        <Height>28</Height>
+        <MaxLevels>3</MaxLevels>
+        <Horizontal>false</Horizontal>
+    </StatusIconTemplate>
+
+
+    <StatusIconTemplate>
+        <Name>framerate_icon_large</Name>
+        <TextureName>page3</TextureName>
+        <TextureStart>
+            <X>223</X>
+            <Y>4</Y>
+        </TextureStart>
+        <Width>28</Width>
+        <Height>28</Height>
+        <MaxLevels>3</MaxLevels>
+        <Horizontal>false</Horizontal>
+    </StatusIconTemplate>
+
+
+    <StatusIconTemplate>
+        <Name>performance_icon_small</Name>
+        <TextureName>page3</TextureName>
+        <TextureStart>
+            <X>208</X>
+            <Y>97</Y>
+        </TextureStart>
+        <Width>16</Width>
+        <Height>16</Height>
+        <MaxLevels>3</MaxLevels>
+        <Horizontal>false</Horizontal>
+    </StatusIconTemplate>
+
+
+    <WindowTemplate>
+        <Name>performance</Name>
+        <WindowId>PerformanceWindow</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>226</Width>
+        <Height>36</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>226</MinWidth>
+        <MinHeight>32</MinHeight>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>diivs_stats_index_extension</TemplateName>
+            <Width>357</Width>
+        </HorizontalResizeImageDef>
+
+
+        <ButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_options_check</TemplateName>
+            <Label>OPT</Label>
+            <onClickEvent>ToggleCustom12</onClickEvent>
+        </ButtonDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>198</X>
+                <Y>8</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter>time_of_day</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>96</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>0</G>
+                <B>0</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <!--                                                                                                                              small icons                                                                                                                              -->
+
+
+        <StatusIconDef>
+            <ControlId>2000</ControlId>
+            <Position>
+                <X>298</X>
+                <Y>5</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>performance_icon_small</TemplateName>
+            <AdapterName>performance_meter</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>2001</ControlId>
+            <Position>
+                <X>314</X>
+                <Y>5</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>performance_icon_small</TemplateName>
+            <AdapterName>lag_meter</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>2002</ControlId>
+            <Position>
+                <X>330</X>
+                <Y>5</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>performance_icon_small</TemplateName>
+            <AdapterName>framerate_meter</AdapterName>
+        </StatusIconDef>
+
+
+        <ButtonDef>
+            <ControlId>button_warmap</ControlId>
+            <Position>
+                <X>32</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>half_button_realm_left</TemplateName>
+            <Label></Label>
+            <onClickEvent>ShowWarmap</onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>maps</ControlId>
+            <Position>
+                <X>45</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>half_button_realm_right</TemplateName>
+            <Label></Label>
+            <onClickEvent>ToggleMap</onClickEvent>
+        </ButtonDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>136</X>
+                <Y>8</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter>game_time</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>66</Width>
+            <Height>12</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>0</G>
+                <B>0</B>
+                <A>255</A>
+            </Color>
+            <Data>CLOCK</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <CompassControlDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>70</X>
+                <Y>6</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>compass</TemplateName>
+            <AdapterName>compass_heading</AdapterName>
+            <Width>64</Width>
+            <Height>16</Height>
+        </CompassControlDef>
+
+
+        <ImageAreaDef>
+            <ControlId>compas</ControlId>
+            <Position>
+                <X>70</X>
+                <Y>6</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>compass_border_sm</TemplateName>
+        </ImageAreaDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_combat_mode</TemplateName>
+            <AdapterName>combat_mode</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>30</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_combat_mode</TemplateName>
+            <AdapterName>combat_mode</AdapterName>
+        </StatusIconDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

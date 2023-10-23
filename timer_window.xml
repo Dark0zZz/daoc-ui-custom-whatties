@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Modded by Kveldstjarna Graimani, Midgard, Nimue -->
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.77b -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>timer</Name>
+        <WindowId>Timer</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>256</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>272</Width>
+        <Height>28</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>6</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Color>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
+                <A>255</A>
+            </Color>
+            <FontName>button_large</FontName>
+            <Width>256</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>timer_text</Adapter>
+        </LabelDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>4</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>diivs_endcap_left</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>5</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>diivs_endcap_right</TemplateName>
+        </ImageAreaDef>
+
+
+        <StatusBarDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>12</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>false</CenterHorizontally>
+            </Alignment>
+            <TemplateName>diivs_pink_status</TemplateName>
+            <AdapterName>timer_time</AdapterName>
+            <Width>250</Width>
+        </StatusBarDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

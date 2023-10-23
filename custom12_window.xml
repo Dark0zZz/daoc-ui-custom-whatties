@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>custom12_window</Name>
+        <WindowId>custom12_window</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>170</Width>
+        <Height>20</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <ButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>-4</Y>
+            </Position>
+            <Alignment>
+            </Alignment>
+            <TemplateName>button_exp_toggle</TemplateName>
+            <Label>exp</Label>
+            <onClickEvent>ToggleCustom3</onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>28</X>
+                <Y>-4</Y>
+            </Position>
+            <Alignment>
+            </Alignment>
+            <TemplateName>half_button_circle_left</TemplateName>
+            <Label>rvr</Label>
+            <onClickEvent>ToggleCustom2</onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>42</X>
+                <Y>-4</Y>
+            </Position>
+            <Alignment>
+            </Alignment>
+            <TemplateName>half_button_circle_right</TemplateName>
+            <Label>champ lvl</Label>
+            <onClickEvent>ToggleCustom16</onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>56</X>
+                <Y>-4</Y>
+            </Position>
+            <Alignment>
+            </Alignment>
+            <TemplateName>button_stats_toggle</TemplateName>
+            <Label>stats</Label>
+            <onClickEvent>ToggleCustom4</onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>84</X>
+                <Y>-4</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>half_button_conc_toggle_left</TemplateName>
+            <Label>pulse</Label>
+            <onClickEvent>ToggleCustom5</onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>98</X>
+                <Y>-4</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>half_button_conc_toggle_right</TemplateName>
+            <Label>conc</Label>
+            <onClickEvent>ToggleConcentration</onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>112</X>
+                <Y>-4</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_quiver_toggle</TemplateName>
+            <Label>quiver</Label>
+            <onClickEvent>ToggleQuiver</onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>140</X>
+                <Y>-4</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_groupbuff_toggle</TemplateName>
+            <Label>mini menu</Label>
+            <onClickEvent>ToggleMiniGroup</onClickEvent>
+        </ButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

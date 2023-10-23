@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Modded by Kveldstjarna Graimani, Midgard, Nimue -->
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.77b -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <ListBoxTemplate>
+        <Name>listbox_green_bg</Name>
+        <LinePadding>4</LinePadding>
+        <CellPadding>10</CellPadding>
+        <LabelLength>128</LabelLength>
+        <ScrollbarTemplate>generic_vscroll</ScrollbarTemplate>
+        <DrawScroll>true</DrawScroll>
+        <ScrollbarTopOffset>2</ScrollbarTopOffset>
+        <ScrollbarBottomOffset>2</ScrollbarBottomOffset>
+        <ScrollbarRightOffset>-3</ScrollbarRightOffset>
+        <Sorting>false</Sorting>
+        <BackgroundTemplate>dlg_interior_large</BackgroundTemplate>
+        <IconTemplate>plain_icon_small</IconTemplate>
+        <TextFont>
+            <Name>arial9</Name>
+            <ColorNormal>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorHighlit>
+                <R>0</R>
+                <G>192</G>
+                <B>0</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorGreyed>
+                <R>127</R>
+                <G>127</G>
+                <B>127</B>
+                <A>255</A>
+            </ColorGreyed>
+            <TextTopOffset>0</TextTopOffset>
+            <TextBottomOffset>0</TextBottomOffset>
+            <TextLeftOffset>0</TextLeftOffset>
+            <TextRightOffset>0</TextRightOffset>
+            <LineOffset>0</LineOffset>
+        </TextFont>
+            <IconSize>
+                <X>16</X>
+                <Y>16</Y>
+            </IconSize>
+    </ListBoxTemplate>
+
+
+    <WindowTemplate>
+        <Name>stats_spec_abil</Name>
+        <WindowId>Stats_Spec_Abil</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>198</Width>
+        <Height>410</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+
+
+        <FullResizeImageDef>
+            <ControlId>BackgroundImage</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>dlg_background_noresize</TemplateName>
+            <Width>198</Width>
+            <Height>410</Height>
+        </FullResizeImageDef>
+
+
+        <ListBoxDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>8</X>
+                <Y>22</Y>
+            </Position>
+            <Alignment>
+            </Alignment>
+            <Width>176</Width>
+            <Height>96</Height>
+            <TemplateName>listbox_green_bg</TemplateName>
+            <AdapterName>stats_specs</AdapterName>
+            <Sorting>false</Sorting>
+            <Columns>0</Columns>
+            <IconTemplate></IconTemplate>
+            <ShowIndicator>false</ShowIndicator>
+            <ShowDefaultToolTips>false</ShowDefaultToolTips>
+            <OnHeaderClickEvent></OnHeaderClickEvent>
+            <OnClickEvent></OnClickEvent>
+        </ListBoxDef>
+
+
+        <ListBoxDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>8</X>
+                <Y>139</Y>
+            </Position>
+            <Alignment>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <Width>176</Width>
+            <Height>167</Height>
+            <TemplateName>listbox_bg_sm_font</TemplateName>
+            <AdapterName>stats_abil</AdapterName>
+            <Sorting>false</Sorting>
+            <Columns>0</Columns>
+            <IconTemplate></IconTemplate>
+            <ShowIndicator>false</ShowIndicator>
+            <ShowDefaultToolTips>false</ShowDefaultToolTips>
+            <OnHeaderClickEvent></OnHeaderClickEvent>
+            <OnClickEvent></OnClickEvent>
+        </ListBoxDef>
+
+
+        <ListBoxDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>9</X>
+                <Y>327</Y>
+            </Position>
+            <Alignment>
+            </Alignment>
+            <Width>176</Width>
+            <Height>78</Height>
+            <TemplateName>listbox_bg_sm_font</TemplateName>
+            <AdapterName>stats_trades</AdapterName>
+            <Sorting>false</Sorting>
+            <Columns>0</Columns>
+            <IconTemplate></IconTemplate>
+            <ShowIndicator>false</ShowIndicator>
+            <ShowDefaultToolTips>false</ShowDefaultToolTips>
+            <OnHeaderClickEvent></OnHeaderClickEvent>
+            <OnClickEvent></OnClickEvent>
+        </ListBoxDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>15</X>
+                <Y>5</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>dialog_inset</TemplateName>
+            <Width>95</Width>
+        </HorizontalResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>28</X>
+                <Y>7</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>96</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>Specializations</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>113</X>
+                <Y>5</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>dialog_inset</TemplateName>
+            <Width>63</Width>
+        </HorizontalResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>117</X>
+                <Y>6</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>54</Width>
+            <Height>12</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>points: 999</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>true</TextCentered>
+            <Adapter>stats_spec_points</Adapter>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>15</X>
+                <Y>122</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>dialog_inset</TemplateName>
+            <Width>95</Width>
+        </HorizontalResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>28</X>
+                <Y>124</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>96</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>Abilities</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>15</X>
+                <Y>310</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>dialog_inset</TemplateName>
+            <Width>95</Width>
+        </HorizontalResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>28</X>
+                <Y>312</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>96</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>Tradeskills</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

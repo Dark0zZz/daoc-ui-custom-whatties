@@ -1,0 +1,1116 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>custom17_window</Name>
+        <WindowId>custom17_window</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>128</Width>
+        <Height>162</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>mini_back_topfoot</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>150</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>mini_back_bottomfoot</TemplateName>
+        </ImageAreaDef>
+
+
+        <!--group 0-->
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>mini_back</TemplateName>
+            <AdapterName>group_health0</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>7</X>
+                <Y>4</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sm_endcaps_40</TemplateName>
+            <AdapterName>group_health0</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>10</X>
+                <Y>4</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>red_status</TemplateName>
+            <AdapterName>group_health0</AdapterName>
+            <Width>40</Width>
+        </StatusBarDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>7</X>
+                <Y>12</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sm_endcaps_40</TemplateName>
+            <AdapterName>group_power0</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>10</X>
+                <Y>12</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>yellow_status</TemplateName>
+            <AdapterName>group_power0</AdapterName>
+            <Width>40</Width>
+        </StatusBarDef>
+
+
+        <LabelDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>60</X>
+                <Y>5</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>48</Width>
+            <Height>12</Height>
+            <ColorAdapter>group_color0</ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>group0</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>group_name0</Adapter>
+        </LabelDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>109</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>endu_14</TemplateName>
+            <AdapterName>group_endurance0</AdapterName>
+        </StatusIconDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>1</X>
+                <Y>1</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember0</OnClickEvent>
+            <Width>126</Width>
+            <Height>20</Height>
+        </InvisibleButtonDef>
+
+
+        <!--group 1-->
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>mini_back</TemplateName>
+            <AdapterName>group_health1</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>7</X>
+                <Y>24</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sm_endcaps_40</TemplateName>
+            <AdapterName>group_health1</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>10</X>
+                <Y>24</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>red_status</TemplateName>
+            <AdapterName>group_health1</AdapterName>
+            <Width>40</Width>
+        </StatusBarDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>7</X>
+                <Y>32</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sm_endcaps_40</TemplateName>
+            <AdapterName>group_power1</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>10</X>
+                <Y>32</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>yellow_status</TemplateName>
+            <AdapterName>group_power1</AdapterName>
+            <Width>40</Width>
+        </StatusBarDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>109</X>
+                <Y>23</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>endu_14</TemplateName>
+            <AdapterName>group_endurance1</AdapterName>
+        </StatusIconDef>
+
+
+        <LabelDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>60</X>
+                <Y>25</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>48</Width>
+            <Height>12</Height>
+            <ColorAdapter>group_color1</ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>group1</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>group_name1</Adapter>
+        </LabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>1</X>
+                <Y>21</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember1</OnClickEvent>
+            <Width>126</Width>
+            <Height>20</Height>
+        </InvisibleButtonDef>
+
+
+        <!--group 2-->
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>40</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>mini_back</TemplateName>
+            <AdapterName>group_health2</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>7</X>
+                <Y>44</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sm_endcaps_40</TemplateName>
+            <AdapterName>group_health2</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>10</X>
+                <Y>44</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>red_status</TemplateName>
+            <AdapterName>group_health2</AdapterName>
+            <Width>40</Width>
+        </StatusBarDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>7</X>
+                <Y>52</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sm_endcaps_40</TemplateName>
+            <AdapterName>group_power2</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>10</X>
+                <Y>52</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>yellow_status</TemplateName>
+            <AdapterName>group_power2</AdapterName>
+            <Width>40</Width>
+        </StatusBarDef>
+
+
+        <LabelDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>60</X>
+                <Y>45</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>48</Width>
+            <Height>12</Height>
+            <ColorAdapter>group_color2</ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>group0</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>group_name2</Adapter>
+        </LabelDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>109</X>
+                <Y>43</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>endu_14</TemplateName>
+            <AdapterName>group_endurance2</AdapterName>
+        </StatusIconDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>1</X>
+                <Y>41</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember2</OnClickEvent>
+            <Width>126</Width>
+            <Height>20</Height>
+        </InvisibleButtonDef>
+
+
+        <!--group 3-->
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>60</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>mini_back</TemplateName>
+            <AdapterName>group_health3</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>7</X>
+                <Y>64</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sm_endcaps_40</TemplateName>
+            <AdapterName>group_health3</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>10</X>
+                <Y>64</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>red_status</TemplateName>
+            <AdapterName>group_health3</AdapterName>
+            <Width>40</Width>
+        </StatusBarDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>7</X>
+                <Y>72</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sm_endcaps_40</TemplateName>
+            <AdapterName>group_power3</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>10</X>
+                <Y>72</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>yellow_status</TemplateName>
+            <AdapterName>group_power3</AdapterName>
+            <Width>40</Width>
+        </StatusBarDef>
+
+
+        <LabelDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>60</X>
+                <Y>65</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>48</Width>
+            <Height>12</Height>
+            <ColorAdapter>group_color3</ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>group0</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>group_name3</Adapter>
+        </LabelDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>109</X>
+                <Y>63</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>endu_14</TemplateName>
+            <AdapterName>group_endurance3</AdapterName>
+        </StatusIconDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>1</X>
+                <Y>61</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember3</OnClickEvent>
+            <Width>126</Width>
+            <Height>20</Height>
+        </InvisibleButtonDef>
+
+
+        <!--group 4-->
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>80</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>mini_back</TemplateName>
+            <AdapterName>group_health4</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>7</X>
+                <Y>84</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sm_endcaps_40</TemplateName>
+            <AdapterName>group_health4</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>10</X>
+                <Y>84</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>red_status</TemplateName>
+            <AdapterName>group_health4</AdapterName>
+            <Width>40</Width>
+        </StatusBarDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>7</X>
+                <Y>92</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sm_endcaps_40</TemplateName>
+            <AdapterName>group_power4</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>10</X>
+                <Y>92</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>yellow_status</TemplateName>
+            <AdapterName>group_power4</AdapterName>
+            <Width>40</Width>
+        </StatusBarDef>
+
+
+        <LabelDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>60</X>
+                <Y>85</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>48</Width>
+            <Height>12</Height>
+            <ColorAdapter>group_color4</ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>group0</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>group_name4</Adapter>
+        </LabelDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>109</X>
+                <Y>83</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>endu_14</TemplateName>
+            <AdapterName>group_endurance4</AdapterName>
+        </StatusIconDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>1</X>
+                <Y>81</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember4</OnClickEvent>
+            <Width>126</Width>
+            <Height>20</Height>
+        </InvisibleButtonDef>
+
+
+        <!--group 5-->
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>100</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>mini_back</TemplateName>
+            <AdapterName>group_health5</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>7</X>
+                <Y>104</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sm_endcaps_40</TemplateName>
+            <AdapterName>group_health5</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>10</X>
+                <Y>104</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>red_status</TemplateName>
+            <AdapterName>group_health5</AdapterName>
+            <Width>40</Width>
+        </StatusBarDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>7</X>
+                <Y>112</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sm_endcaps_40</TemplateName>
+            <AdapterName>group_power5</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>10</X>
+                <Y>112</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>yellow_status</TemplateName>
+            <AdapterName>group_power5</AdapterName>
+            <Width>40</Width>
+        </StatusBarDef>
+
+
+        <LabelDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>60</X>
+                <Y>105</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>48</Width>
+            <Height>12</Height>
+            <ColorAdapter>group_color5</ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>group0</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>group_name5</Adapter>
+        </LabelDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>109</X>
+                <Y>103</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>endu_14</TemplateName>
+            <AdapterName>group_endurance5</AdapterName>
+        </StatusIconDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>1</X>
+                <Y>101</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember5</OnClickEvent>
+            <Width>126</Width>
+            <Height>20</Height>
+        </InvisibleButtonDef>
+
+
+        <!--group 6-->
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>120</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>mini_back</TemplateName>
+            <AdapterName>group_health6</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>7</X>
+                <Y>124</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sm_endcaps_40</TemplateName>
+            <AdapterName>group_health6</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>10</X>
+                <Y>124</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>red_status</TemplateName>
+            <AdapterName>group_health6</AdapterName>
+            <Width>40</Width>
+        </StatusBarDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>7</X>
+                <Y>132</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sm_endcaps_40</TemplateName>
+            <AdapterName>group_power6</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>10</X>
+                <Y>132</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>yellow_status</TemplateName>
+            <AdapterName>group_power6</AdapterName>
+            <Width>40</Width>
+        </StatusBarDef>
+
+
+        <LabelDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>60</X>
+                <Y>125</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>48</Width>
+            <Height>12</Height>
+            <ColorAdapter>group_color6</ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>group0</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>group_name6</Adapter>
+        </LabelDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>109</X>
+                <Y>123</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>endu_14</TemplateName>
+            <AdapterName>group_endurance6</AdapterName>
+        </StatusIconDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>1</X>
+                <Y>121</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember6</OnClickEvent>
+            <Width>126</Width>
+            <Height>20</Height>
+        </InvisibleButtonDef>
+
+
+        <!--group 7-->
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>140</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>mini_back</TemplateName>
+            <AdapterName>group_health7</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>7</X>
+                <Y>144</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sm_endcaps_40</TemplateName>
+            <AdapterName>group_health7</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>10</X>
+                <Y>144</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>red_status</TemplateName>
+            <AdapterName>group_health7</AdapterName>
+            <Width>40</Width>
+        </StatusBarDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>7</X>
+                <Y>152</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sm_endcaps_40</TemplateName>
+            <AdapterName>group_power7</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>10</X>
+                <Y>152</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>yellow_status</TemplateName>
+            <AdapterName>group_power7</AdapterName>
+            <Width>40</Width>
+        </StatusBarDef>
+
+
+        <LabelDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>60</X>
+                <Y>145</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>48</Width>
+            <Height>12</Height>
+            <ColorAdapter>group_color7</ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>group0</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>group_name7</Adapter>
+        </LabelDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>109</X>
+                <Y>143</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>endu_14</TemplateName>
+            <AdapterName>group_endurance7</AdapterName>
+        </StatusIconDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>1</X>
+                <Y>141</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember7</OnClickEvent>
+            <Width>126</Width>
+            <Height>20</Height>
+        </InvisibleButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

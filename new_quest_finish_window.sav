@@ -1,0 +1,1049 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Modded by Kveldstjarna Graimani, Midgard, Nimue -->
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.77b -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>new_quest_finish</Name>
+        <WindowId>NewQuestFinish</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>300</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>300</Width>
+        <Height>425</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+
+
+        <FullResizeImageDef>
+            <ControlId>BackgroundImage</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>dlg_background_resize</TemplateName>
+            <Width>300</Width>
+            <Height>425</Height>
+        </FullResizeImageDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>10</X>
+                <Y>24</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>dialog_inset</TemplateName>
+            <Width>280</Width>
+        </HorizontalResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>15</X>
+                <Y>25</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
+                <A>255</A>
+            </Color>
+            <FontName>button_large</FontName>
+            <Width>270</Width>
+            <Height>15</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>new_quest_title</Adapter>
+        </LabelDef>
+
+
+        <TextAreaDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>40</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <TemplateName>generic_textarea</TemplateName>
+            <AdapterName>new_quest_text</AdapterName>
+            <HasHotspots>false</HasHotspots>
+            <MaxCharacters>32768</MaxCharacters>
+            <Width>280</Width>
+            <Height>180</Height>
+        </TextAreaDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>10</X>
+                <Y>224</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>dialog_inset</TemplateName>
+            <Width>280</Width>
+        </HorizontalResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>15</X>
+                <Y>225</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>256</Width>
+            <Height>15</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Basic Rewards</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <!-- Basic reward frames -->
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>13</X>
+                <Y>240</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>reward_frame_template</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>47</X>
+                <Y>240</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>reward_frame_template</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>81</X>
+                <Y>240</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>reward_frame_template</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>115</X>
+                <Y>240</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>reward_frame_template</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>149</X>
+                <Y>240</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>reward_frame_template</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>183</X>
+                <Y>240</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>reward_frame_template</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>217</X>
+                <Y>240</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>reward_frame_template</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>251</X>
+                <Y>240</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>reward_frame_template</TemplateName>
+        </ImageAreaDef>
+
+
+        <!-- Basic reward icons -->
+
+
+        <IconDef>
+			<IconID>0</IconID>
+			<Position>
+				<X>13</X>
+				<Y>240</Y>
+			</Position>
+			<Width>32</Width>
+			<Height>32</Height>
+			<ControlId>1010</ControlId>
+			<TemplateName>plain_icon_large</TemplateName>
+			<AdapterName>new_quest_reward0</AdapterName>
+			<LabelAdapterName>new_quest_reward_desc0</LabelAdapterName>
+			<ToolTipID>38</ToolTipID>
+			<HideLabel>1</HideLabel>
+		</IconDef>
+
+		<IconDef>
+			<IconID>0</IconID>
+			<Position>
+				<X>47</X>
+				<Y>240</Y>
+			</Position>
+			<Width>32</Width>
+			<Height>32</Height>
+			<ControlId>1011</ControlId>
+			<TemplateName>plain_icon_large</TemplateName>
+			<AdapterName>new_quest_reward1</AdapterName>
+			<LabelAdapterName>new_quest_reward_desc1</LabelAdapterName>
+			<ToolTipID>38</ToolTipID>
+			<HideLabel>1</HideLabel>
+		</IconDef>
+
+		<IconDef>
+			<IconID>0</IconID>
+			<Position>
+				<X>81</X>
+				<Y>240</Y>
+			</Position>
+			<Width>32</Width>
+			<Height>32</Height>
+			<ControlId>1012</ControlId>
+			<TemplateName>plain_icon_large</TemplateName>
+			<AdapterName>new_quest_reward2</AdapterName>
+			<LabelAdapterName>new_quest_reward_desc2</LabelAdapterName>
+			<ToolTipID>38</ToolTipID>
+			<HideLabel>1</HideLabel>
+		</IconDef>
+
+		<IconDef>
+			<IconID>0</IconID>
+			<Position>
+				<X>115</X>
+				<Y>240</Y>
+			</Position>
+			<Width>32</Width>
+			<Height>32</Height>
+			<ControlId>1013</ControlId>
+			<TemplateName>plain_icon_large</TemplateName>
+			<AdapterName>new_quest_reward3</AdapterName>
+			<LabelAdapterName>new_quest_reward_desc3</LabelAdapterName>
+			<ToolTipID>38</ToolTipID>
+			<HideLabel>1</HideLabel>
+		</IconDef>
+
+		<IconDef>
+			<IconID>0</IconID>
+			<Position>
+				<X>149</X>
+				<Y>240</Y>
+			</Position>
+			<Width>32</Width>
+			<Height>32</Height>
+			<ControlId>1014</ControlId>
+			<TemplateName>plain_icon_large</TemplateName>
+			<AdapterName>new_quest_reward4</AdapterName>
+			<LabelAdapterName>new_quest_reward_desc4</LabelAdapterName>
+			<ToolTipID>38</ToolTipID>
+			<HideLabel>1</HideLabel>
+		</IconDef>
+
+		<IconDef>
+			<IconID>0</IconID>
+			<Position>
+				<X>183</X>
+				<Y>240</Y>
+			</Position>
+			<Width>32</Width>
+			<Height>32</Height>
+			<ControlId>1015</ControlId>
+			<TemplateName>plain_icon_large</TemplateName>
+			<AdapterName>new_quest_reward5</AdapterName>
+			<LabelAdapterName>new_quest_reward_desc5</LabelAdapterName>
+			<ToolTipID>38</ToolTipID>
+			<HideLabel>1</HideLabel>
+		</IconDef>
+
+		<IconDef>
+			<IconID>0</IconID>
+			<Position>
+				<X>217</X>
+				<Y>240</Y>
+			</Position>
+			<Width>32</Width>
+			<Height>32</Height>
+			<ControlId>1016</ControlId>
+			<TemplateName>plain_icon_large</TemplateName>
+			<AdapterName>new_quest_reward6</AdapterName>
+			<LabelAdapterName>new_quest_reward_desc6</LabelAdapterName>
+			<ToolTipID>38</ToolTipID>
+			<HideLabel>1</HideLabel>
+		</IconDef>
+
+		<IconDef>
+			<IconID>0</IconID>
+			<Position>
+				<X>251</X>
+				<Y>240</Y>
+			</Position>
+			<Width>32</Width>
+			<Height>32</Height>
+			<ControlId>1017</ControlId>
+			<TemplateName>plain_icon_large</TemplateName>
+			<AdapterName>new_quest_reward7</AdapterName>
+			<LabelAdapterName>new_quest_reward_desc7</LabelAdapterName>
+			<ToolTipID>38</ToolTipID>
+			<HideLabel>1</HideLabel>
+		</IconDef>
+
+
+
+        <!-- Exp payout bubbles -->
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>67</X>
+                <Y>286</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>25</Width>
+            <Height>11</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>16</MaxCharacters>
+            <Data>Exp</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>93</X>
+                <Y>289</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>diivs_endcap_left</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>188</X>
+                <Y>289</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>diivs_endcap_right</TemplateName>
+        </ImageAreaDef>
+
+
+        <StatusIconDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>198</X>
+                <Y>278</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>bub_status_xp</TemplateName>
+            <AdapterName>new_quest_exp_coarse</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusBarDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>99</X>
+                <Y>289</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>diivs_blue_status</TemplateName>
+            <AdapterName>new_quest_exp_fine</AdapterName>
+            <Width>90</Width>
+        </StatusBarDef>
+
+
+        <!-- Coin data -->
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>18</X>
+                <Y>317</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>mithril_decal</TemplateName>
+        </ImageAreaDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>31</X>
+                <Y>314</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>dialog_inset</TemplateName>
+            <Width>44</Width>
+        </HorizontalResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>38</X>
+                <Y>315</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>35</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>P 999</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>new_quest_platinum</Adapter>
+        </LabelDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>87</X>
+                <Y>317</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>gold_decal</TemplateName>
+        </ImageAreaDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>100</X>
+                <Y>314</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>dialog_inset</TemplateName>
+            <Width>44</Width>
+        </HorizontalResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>107</X>
+                <Y>315</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>168</R>
+                <G>144</G>
+                <B>73</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>35</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>G 999</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>new_quest_gold</Adapter>
+        </LabelDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>156</X>
+                <Y>317</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>silver_decal</TemplateName>
+        </ImageAreaDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>169</X>
+                <Y>314</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>dialog_inset</TemplateName>
+            <Width>44</Width>
+        </HorizontalResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>176</X>
+                <Y>315</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>153</R>
+                <G>153</G>
+                <B>153</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>35</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>S 999</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>new_quest_silver</Adapter>
+        </LabelDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>225</X>
+                <Y>317</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>copper_decal</TemplateName>
+        </ImageAreaDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>238</X>
+                <Y>314</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>dialog_inset</TemplateName>
+            <Width>44</Width>
+        </HorizontalResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>247</X>
+                <Y>315</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>153</R>
+                <G>153</G>
+                <B>0</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>35</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>C 999</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>new_quest_copper</Adapter>
+        </LabelDef>
+
+
+        <!-- Optional rewards section -->
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>10</X>
+                <Y>338</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>dialog_inset</TemplateName>
+            <Width>280</Width>
+        </HorizontalResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>15</X>
+                <Y>339</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>185</Width>
+            <Height>15</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Optional Rewards</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>200</X>
+                <Y>339</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>95</Width>
+            <Height>15</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>16</MaxCharacters>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>new_quest_opt_reward_count</Adapter>
+        </LabelDef>
+
+
+        <!-- Optional reward frames -->
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>13</X>
+                <Y>358</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>reward_frame_template</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>47</X>
+                <Y>358</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>reward_frame_template</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>81</X>
+                <Y>358</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>reward_frame_template</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>115</X>
+                <Y>358</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>reward_frame_template</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>149</X>
+                <Y>358</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>reward_frame_template</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>183</X>
+                <Y>358</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>reward_frame_template</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>217</X>
+                <Y>358</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>reward_frame_template</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>251</X>
+                <Y>358</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>reward_frame_template</TemplateName>
+        </ImageAreaDef>
+
+
+        <!-- Optional rewards icons -->
+
+
+		<IconDef>
+			<IconID>0</IconID>
+			<Position>
+				<X>13</X>
+				<Y>358</Y>
+			</Position>
+			<Width>32</Width>
+			<Height>32</Height>
+			<ControlId>1018</ControlId>
+			<TemplateName>plain_icon_large</TemplateName>
+			<AdapterName>new_quest_opt_reward0</AdapterName>
+			<LabelAdapterName>new_quest_opt_reward_desc0</LabelAdapterName>
+			<StateAdapterName>new_quest_opt_reward_state0</StateAdapterName>
+			<OnClickEvent>NewQuestSelectOptReward0</OnClickEvent>
+			<ToolTipID>38</ToolTipID>
+			<HideLabel>1</HideLabel>
+		</IconDef>
+
+		<IconDef>
+			<IconID>0</IconID>
+			<Position>
+				<X>47</X>
+				<Y>358</Y>
+			</Position>
+			<Width>32</Width>
+			<Height>32</Height>
+			<ControlId>1019</ControlId>
+			<TemplateName>plain_icon_large</TemplateName>
+			<AdapterName>new_quest_opt_reward1</AdapterName>
+			<LabelAdapterName>new_quest_opt_reward_desc1</LabelAdapterName>
+			<StateAdapterName>new_quest_opt_reward_state1</StateAdapterName>
+			<OnClickEvent>NewQuestSelectOptReward1</OnClickEvent>
+			<ToolTipID>38</ToolTipID>
+			<HideLabel>1</HideLabel>
+		</IconDef>
+
+		<IconDef>
+			<IconID>0</IconID>
+			<Position>
+				<X>81</X>
+				<Y>358</Y>
+			</Position>
+			<Width>32</Width>
+			<Height>32</Height>
+			<ControlId>1020</ControlId>
+			<TemplateName>plain_icon_large</TemplateName>
+			<AdapterName>new_quest_opt_reward2</AdapterName>
+			<LabelAdapterName>new_quest_opt_reward_desc2</LabelAdapterName>
+			<StateAdapterName>new_quest_opt_reward_state2</StateAdapterName>
+			<OnClickEvent>NewQuestSelectOptReward2</OnClickEvent>
+			<ToolTipID>38</ToolTipID>
+			<HideLabel>1</HideLabel>
+		</IconDef>
+
+		<IconDef>
+			<IconID>0</IconID>
+			<Position>
+				<X>115</X>
+				<Y>358</Y>
+			</Position>
+			<Width>32</Width>
+			<Height>32</Height>
+			<ControlId>1021</ControlId>
+			<TemplateName>plain_icon_large</TemplateName>
+			<AdapterName>new_quest_opt_reward3</AdapterName>
+			<LabelAdapterName>new_quest_opt_reward_desc3</LabelAdapterName>
+			<StateAdapterName>new_quest_opt_reward_state3</StateAdapterName>
+			<OnClickEvent>NewQuestSelectOptReward3</OnClickEvent>
+			<ToolTipID>38</ToolTipID>
+			<HideLabel>1</HideLabel>
+		</IconDef>
+
+		<IconDef>
+			<IconID>0</IconID>
+			<Position>
+				<X>149</X>
+				<Y>358</Y>
+			</Position>
+			<Width>32</Width>
+			<Height>32</Height>
+			<ControlId>1022</ControlId>
+			<TemplateName>plain_icon_large</TemplateName>
+			<AdapterName>new_quest_opt_reward4</AdapterName>
+			<LabelAdapterName>new_quest_opt_reward_desc4</LabelAdapterName>
+			<StateAdapterName>new_quest_opt_reward_state4</StateAdapterName>
+			<OnClickEvent>NewQuestSelectOptReward4</OnClickEvent>
+			<ToolTipID>38</ToolTipID>
+			<HideLabel>1</HideLabel>
+		</IconDef>
+
+		<IconDef>
+			<IconID>0</IconID>
+			<Position>
+				<X>183</X>
+				<Y>358</Y>
+			</Position>
+			<Width>32</Width>
+			<Height>32</Height>
+			<ControlId>1023</ControlId>
+			<TemplateName>plain_icon_large</TemplateName>
+			<AdapterName>new_quest_opt_reward5</AdapterName>
+			<LabelAdapterName>new_quest_opt_reward_desc5</LabelAdapterName>
+			<StateAdapterName>new_quest_opt_reward_state5</StateAdapterName>
+			<OnClickEvent>NewQuestSelectOptReward5</OnClickEvent>
+			<ToolTipID>38</ToolTipID>
+			<HideLabel>1</HideLabel>
+		</IconDef>
+
+		<IconDef>
+			<IconID>0</IconID>
+			<Position>
+				<X>217</X>
+				<Y>358</Y>
+			</Position>
+			<Width>32</Width>
+			<Height>32</Height>
+			<ControlId>1024</ControlId>
+			<TemplateName>plain_icon_large</TemplateName>
+			<AdapterName>new_quest_opt_reward6</AdapterName>
+			<LabelAdapterName>new_quest_opt_reward_desc6</LabelAdapterName>
+			<StateAdapterName>new_quest_opt_reward_stat6e</StateAdapterName>
+			<OnClickEvent>NewQuestSelectOptReward6</OnClickEvent>
+			<ToolTipID>38</ToolTipID>
+			<HideLabel>1</HideLabel>
+		</IconDef>
+
+		<IconDef>
+			<IconID>0</IconID>
+			<Position>
+				<X>251</X>
+				<Y>358</Y>
+			</Position>
+			<Width>32</Width>
+			<Height>32</Height>
+			<ControlId>1025</ControlId>
+			<TemplateName>plain_icon_large</TemplateName>
+			<AdapterName>new_quest_opt_reward7</AdapterName>
+			<LabelAdapterName>new_quest_opt_reward_desc7</LabelAdapterName>
+			<StateAdapterName>new_quest_opt_reward_state7</StateAdapterName>
+			<OnClickEvent>NewQuestSelectOptReward7</OnClickEvent>
+			<ToolTipID>38</ToolTipID>
+			<HideLabel>1</HideLabel>
+		</IconDef>
+
+        <ButtonDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>90</X>
+                <Y>9</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+            </Alignment>
+            <TemplateName>button_large</TemplateName>
+            <Label>FINISH</Label>
+            <onClickEvent>NewQuestFinish</onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1004</ControlId>
+            <Position>
+                <X>152</X>
+                <Y>9</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+            </Alignment>
+            <TemplateName>button_large</TemplateName>
+            <Label>NOT YET</Label>
+            <onClickEvent>NewQuestContinue</onClickEvent>
+        </ButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

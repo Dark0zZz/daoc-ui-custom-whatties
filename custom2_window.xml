@@ -1,0 +1,415 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <HorizontalResizeImageTemplate>
+        <Name>rps_lit</Name>
+        <Height>8</Height>
+        <LeftWidth>0</LeftWidth>
+        <RepeatWidth>9</RepeatWidth>
+        <RightWidth>0</RightWidth>
+        <Texture>
+            <TextureName>page3</TextureName>
+            <Left>
+                <X>0</X>
+                <Y>0</Y>
+            </Left>
+            <Repeat>
+                <X>160</X>
+                <Y>100</Y>
+            </Repeat>
+            <Right>
+                <X>0</X>
+                <Y>0</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <HorizontalResizeImageTemplate>
+        <Name>rps_dark</Name>
+        <Height>8</Height>
+        <LeftWidth>0</LeftWidth>
+        <RepeatWidth>9</RepeatWidth>
+        <RightWidth>0</RightWidth>
+        <Texture>
+            <TextureName>page3</TextureName>
+            <Left>
+                <X>0</X>
+                <Y>0</Y>
+            </Left>
+            <Repeat>
+                <X>170</X>
+                <Y>100</Y>
+            </Repeat>
+            <Right>
+                <X>0</X>
+                <Y>0</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <StatusBarTemplate>
+        <Name>rvr_squares</Name>
+        <ForegroundHResizeTemplate>rps_lit</ForegroundHResizeTemplate>
+        <BackgroundHResizeTemplate>rps_dark</BackgroundHResizeTemplate>
+        <Height>8</Height>
+        <ForegroundOffset>
+            <X>0</X>
+            <Y>0</Y>
+        </ForegroundOffset>
+    </StatusBarTemplate>
+
+
+    <WindowTemplate>
+        <Name>custom2_Window</Name>
+        <WindowId>custom2_Window</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>194</Width>
+        <Height>40</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>194</MinWidth>
+        <MinHeight>40</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>22</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>pod_40_resize</TemplateName>
+            <Width>172</Width>
+        </HorizontalResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>108</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>153</R>
+                <G>153</G>
+                <B>153</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>76</Width>
+            <Height>12</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>64</MaxCharacters>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>true</TextCentered>
+            <Adapter>realm_title</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>112</X>
+                <Y>14</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>155</R>
+                <G>155</G>
+                <B>155</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>24</Width>
+            <Height>12</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>RPs:</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>135</X>
+                <Y>14</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter>stats_realm_points</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>60</Width>
+            <Height>12</Height>
+            <MaxCharacters>42</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>112</X>
+                <Y>24</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>153</R>
+                <G>153</G>
+                <B>153</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>40</Width>
+            <Height>12</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>RSpts:</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>142</X>
+                <Y>24</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter>realm_skillpoints</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>20</Width>
+            <Height>12</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>38</X>
+                <Y>4</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>36</Width>
+            <Height>12</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
+            <Data></Data>
+            <EndAligned>true</EndAligned>
+            <TextCentered>true</TextCentered>
+            <Adapter>realm_rank</Adapter>
+        </LabelDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>35</X>
+                <Y>17</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sm_endcaps_40</TemplateName>
+            <AdapterName>realm_exp_fine</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>38</X>
+                <Y>17</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>red_status</TemplateName>
+            <AdapterName>realm_exp_fine</AdapterName>
+            <Width>40</Width>
+        </StatusBarDef>
+
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>42</X>
+                <Y>25</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter>realm_exp_fine</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>24</Width>
+            <Height>12</Height>
+            <MaxCharacters>12</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>57</X>
+                <Y>25</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>24</Width>
+            <Height>12</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>12</MaxCharacters>
+            <Data>%</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>true</TextCentered>
+            <Adapter></Adapter>
+        </LabelDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>82</X>
+                <Y>6</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>bub_status_rps</TemplateName>
+            <AdapterName>realm_exp_coarse</AdapterName>
+        </StatusIconDef>
+
+
+        <ButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>6</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>half_button_realm_left</TemplateName>
+            <Label>KEEPS</Label>
+            <onClickEvent>Realm</onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>14</X>
+                <Y>6</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>half_button_realm_right</TemplateName>
+            <Label>RELICS</Label>
+            <onClickEvent>Relic</onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>82</X>
+                <Y>6</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>rr_button</TemplateName>
+            <Label></Label>
+            <onClickEvent>ToggleCustom6</onClickEvent>
+        </ButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

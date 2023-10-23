@@ -1,0 +1,1 @@
+This option will enable the new Mythic icons.

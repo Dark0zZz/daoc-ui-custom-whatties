@@ -1,0 +1,185 @@
+5/26/07
+v1.89
+added "snapback" and "show facial morphs" to options_window.xml
+
+removed the HorizontalResizeButtons from the community_window.xml
+
+ - Custom UI writers must convert any HorizontalResizeButtonDef and HorizontalResizeButtonTemplate which are defined into ButtonDef and ButtonTemplate respectively. 
+- Listbox headers can no longer use HorizontalResizeButtonTemplates.
+
+- The HorizontalResizeButtonTemplates specified in the styles.xml have been removed
+    generic_hr_button
+    listbox_hrbutton
+- The related HorizontalResizeImageTemplates were removed as well
+    generic_hr_image_normal
+    generic_hr_image_pressed
+    generic_hr_image_normalhighlight
+    generic_hr_image_disabled
+    listbox_header
+
+- added new Agramon map to the /rw window (includes labels for bridges)
+
+
+
+
+4/4/07
+v1.88 no changes
+v1.87
+added terrain and figure clip plane in options_window.xml
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+11/16/06
+fixed grow/shrink problem with new_quest_journal_window
+
+
+11/14/06 V1.86 (Labyrinth of the Minotaur)
+
+updated looking_for_group.xml (Mythic bug - the "Search" button is not visible, but if you click in the area it brings up the "Find" window)
+
+added the quest_giver and quest_waypoint dots, and quest giver button to the map_window.xml 
+
+adjusted new_quest_window and new_quest_finish_window
+>>Opening either of these two windows in the UI Editor v1.77 or before will remove the delve icons ability.  Backup copies of these two windows are saved as new_quest_window.sav and new_quest_finish_window.sav if you choose to do so. 
+
+added Agramon tab to the realmwar_(alb, hib, mid).xml windows
+
+added new texture warmap_agramon (custom/z163.dds)
+>>IF YOU WOULD LIKE A DIFFERENT AGRAMON MAP, replace the z163.dds file in your "Custom" folder with one of your choice.<<
+added new window realmwar_agramon.xml
+added new window mino_relic.xml
+
+defined
+mino_relic_1-3 (in realmwar_key)
+quest_giver (in realmwar_key)
+quest_waypoint (in realmwar_key)
+reward_frame_template
+
+added "mythical" slot to pprdoll.bmp
+added minotaur relic symbols to map_icons.tga
+added quest_giver and quest_waypoint dots to map_icons.tga
+added yellow X and red X (unknown usage) to map_icons.tga
+
+
+
+
+
+6/30/06 patch notes
+v1.84
+- The spell panel in the default UIs will no longer cut off spells with long names. Because of the recent internal changes with this control, custom UI authors should check that “Column1Width” of their spell panel tree is wide enough to display long spell names.
+
+
+
+6/27/06 Custom UI Support Information
+
+
+In addition, the IconDef control now supports the following tags:
+
+- LabelAdapterName which takes a TextAdapter and updates the label on the icon
+
+- StateAdapterName which takes a ScalarAdapter and offsets the position of the icon down and to the right by the scalar
+
+- OnClickEvent which allows icons to handle click events
+
+- HideLabel which, if set to 1, will hide any label data
+
+IconDef can now take ToolTipID 38, which will create a tool tip containing the Icon's label information.
+
+
+
+
+7/1/06
+
+copied over the following files into the custom directory and made changes to fit Whattie's UI:
+ new_quest_journal_window.xml
+ new_quest_finish_window.xml
+ new_quest_window.xml
+
+added reward_frame_template to styles.xml to support the new quest window
+
+
+
+
+
+
+
+
+
+5/2/06
+V1.83b
+fixed the train window - now when you highlight a realm ability after you highlight a skill, and choose "train," it will train your RA, not the previously highlighted skill.
+fixed the tabs on the social window
+
+4/21/06
+v1.83
+corrected the controlIDs in the train.xml window so that info button and mouse scroll work
+added Podmod's round compass as custom10_window.xml - open it from the "choose windows" window
+changed custom1 (target w/3 bubbles) so that window size was full size - this means you will not be able to "click through" the window, but will have a much easier time of moving it around
+
+
+2/16/06
+v1.82
+updated podmod_rr.dds to include RR12 levels and RR13
+updated RR Chart window (custom6) to include RR12 levels and RR13
+added info/delve button and /use1 and /use2 listbox to miniinfo_window
+added active weapon border around icons in hldbrite.bmp
+
+11/13/05
+v1.80
+updated Whattie's UI v1.76
+champion level window
+mount window
+tool tips
+social window
+subclass window
+added pink dot and group member numbers to /map window
+
+
+custom0 - Heads Up Display/Target 1
+
+custom1 - Heads Up Display/Target 2 w/health, con, end
+
+custom2 - realm exp
+
+custom3 - experience
+
+custom4 - mini stats window
+
+custom5 - pulsing spell window
+
+custom6 - realm rank chart
+
+custom7 - sprint button
+
+custom8 - stick button
+
+custom9 - face button
+
+custom10
+
+custom11
+
+custom12
+
+custom13
+
+custom14
+
+custom15 - custom command button window
+
+custom16 - champion level exp
+
+custom17 - mini_group window - bars
+
+custom18 - mini_group window - dots
+
+custom19 - mini_group window - healer's helper
+
+
+
+
+This UI is based on Whattie's UI v1.76
+Updated by Kveldstjarna Graimani
+wild_rose@graffiti.net

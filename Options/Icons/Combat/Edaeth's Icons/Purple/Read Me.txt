@@ -1,0 +1,38 @@
+DAoC Icons for version 1.89 (oldstyle)
+
+
+
+
+Instructions for installation.
+
+
+
+
+Custom UI users:
+
+1. Download and extract (icons are zip/rar/7z into folder)
+2. Open folder and move or copy icons to your (insert client)/ui/custom folder. Overwrite any icons if it asks.
+3. Start game and enjoy
+
+
+
+
+Non Custom UI users:
+
+1. Download and extract (icons are zip/rar/7z into folder)
+2. Rename folder to custom
+3. Open your (insert client)/ui folder and move or copy your new custom folder inside the ui folder
+4. Start game to char select screen
+5. Go to options and select custom interface
+6. Accept and return to char select screen.
+7. Enter game and enjoy.
+
+
+
+
+Should you have any questions please email me at fewchurpro@aol.com or pm me at vn boards name Lexana_DeWinter.
+
+
+Thanks and enjoy!!
+
+Amy

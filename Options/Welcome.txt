@@ -1,0 +1,28 @@
+Thank you for downloading Whattie's PodMod for DAOC. I've done my best to keep it as close to the original as possible.
+
+This is a very minimalistic UI but I did add in the option to change icon sets.
+
+If you have any problems with the UI, find something that I overlooked, or just have a question
+please let me know. You can contact me in game on Belkiolle of Albion Ywain, Brimond of Midgard Ywain, 
+Belk of Hibernia Ywain, or through e-mail at belkiolle2001@gmail.com.
+
+Fixes for 1.98:
+Updated the Market Explorer Window
+Updated the Friends Window to a smaller font
+
+Fixes for 1.104
+Updated the Option Window
+
+Fixes for 1.105
+Added the new Training Window
+
+Fixes for 1.113
+Little bug fixes here and there
+
+Fixes for 1.115
+General map fixes due to the NNF revamps
+
+Fixes for 1.117C
+Group Option Windows have been added and skinned.
+New Emoticon Icons have been added.
+Icon issues with potions have been resolved.
