@@ -1,2 +1,2 @@
 # daoc-ui-custom-whatties
-Customized version of whatties latest mantained version retrieved at http://armynabtreanid.com/Belkiolle/Whatties.zip
+Customized version of whatties latest version retrieved at http://armynabtreanid.com/Belkiolle/Whatties.zip
